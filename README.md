@@ -5,7 +5,7 @@
 ![af355688748a212818b4746797e6731](https://github.com/user-attachments/assets/fbc89818-b878-4efe-b72c-959f35db169e)
 
 # TODO List
-This repo is under construction, and will be a continuously updated repo.
+This repo is under construction. We will continuously update repo for better contribution and performance.
 - [ ] Release dataset
 - [ ] Release checkpoints & inference code
 - [ ] Release trainining code
