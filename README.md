@@ -9,5 +9,5 @@ This repo is under construction. We will continuously update this repo for bette
 - [ ] Release dataset
 - [ ] Release checkpoints & inference code
 - [ ] Release trainining code
-- [ ] Huggingface demo
-- [ ] Post-training on highher quality and more data
+- [ ] Gradio Demo
+- [ ] Post-training on highher quality data
