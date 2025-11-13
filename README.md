@@ -12,4 +12,5 @@ We will continuously update this repo for better contribution and performance.
 - [ ] Release checkpoints & inference code
 - [ ] Release trainining code
 - [ ] Gradio Demo
+- [ ] Higher quality data
 - [ ] Post-training on highher quality data
