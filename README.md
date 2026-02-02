@@ -3,8 +3,10 @@
 <h5 align="center">  <sup>1</sup>University of Western Australia, <sup>2</sup>Alibaba Group, <sup>3</sup>Zhejiang Laboratory, <sup>4</sup>Monash University </h5>
 
 <h5 align="center">
+  
 [![hf_data](https://img.shields.io/badge/🤗-Datasets-9C276A.svg)](https://huggingface.co/datasets/zinuoli/TriSense-2M)
 [![arxiv](https://img.shields.io/badge/Arxiv-2410.05643-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.18110?)
+
 </h5>
 
 ![af355688748a212818b4746797e6731](https://github.com/user-attachments/assets/fbc89818-b878-4efe-b72c-959f35db169e)
