@@ -8,9 +8,7 @@
 This repo is under construction. We are currently busy with paper & dataset $ codes finalization.
 
 We will continuously update this repo for better contribution and performance.
-- [ ] Release dataset
-- [ ] Release checkpoints & inference code
+- [x] Release dataset
+- [x] Higher quality data
 - [ ] Release trainining code
-- [ ] Gradio Demo
-- [ ] Higher quality data
 - [ ] Post-training on highher quality data
