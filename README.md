@@ -5,7 +5,7 @@
 <h5 align="center">
   
 [![hf_data](https://img.shields.io/badge/🤗-Datasets-9C276A.svg)](https://huggingface.co/datasets/zinuoli/TriSense-2M)
-[![arxiv](https://img.shields.io/badge/Arxiv-2410.05643-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.18110?)
+[![arxiv](https://img.shields.io/badge/Arxiv-2505.18110-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.18110?)
 
 </h5>
 
