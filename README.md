@@ -21,13 +21,8 @@ We found the previous LLM backbone was out-of-date, so we are training a more po
 - [ ] Release trainining code
 - [ ] Post-training on highher quality data
 
-## Dataset Usage
+## Dataset Instruction
 TriSense-2M is a large-scale multimodal dataset for training the TriSense model. It consists of raw data after judger evaluation and three stages of processed training data. We have done another round of filtering compared to the paper version.
-
-### Dataset Sources
-
-- **Repository:** https://github.com/zinuoli/TriSense
-- **Paper:** https://arxiv.org/pdf/2505.18110?
 
 ### Uses
 
