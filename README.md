@@ -21,32 +21,32 @@ We found the previous LLM backbone was out-of-date, so we are training a more po
 - [ ] Release trainining code
 - [ ] Post-training on highher quality data
 
-## 📢 Dataset Usage
+## Dataset Usage
 TriSense-2M is a large-scale multimodal dataset for training the TriSense model. It consists of raw data after judger evaluation and three stages of processed training data. We have done another round of filtering compared to the paper version.
 
-## Dataset Sources
+### Dataset Sources
 
 - **Repository:** https://github.com/zinuoli/TriSense
 - **Paper:** https://arxiv.org/pdf/2505.18110?
 
-## Uses
+### Uses
 
-### Direct Use
+#### Direct Use
 
 This dataset is intended for training and fine-tuning multimodal models on audio-video-speedch video temporal understanding tasks.
 
-### Out-of-Scope Use
+#### Out-of-Scope Use
 
 1. Law enforcement, surveillance, or authoritarian monitoring systems,
 2. Any application that could violate privacy or civil liberties,
 3. Behavior tracking, identity resolution, or intent inference.
 
-### Social Impact
+#### Social Impact
 1. We highlight that downstream applications must be carefully audited for demographic fairness.
 2. We caution that TriSense is a research prototype and is not intended for deployment without further fairness evaluations.
 3. We encourage the use of context-sensitive moderation policies and fairness-aware benchmarks in real-world settings.
 
-## Dataset Structure
+### Dataset Structure
 
 The dataset contains four JSON files:
 
@@ -57,7 +57,7 @@ The dataset contains four JSON files:
 | `stage2.json` | Stage 2 — Training Quey-Based Connector |
 | `stage3.json` | Stage 3 — Traning LLM backbone |
 
-### Data Flow
+#### Data Flow
 
 ```
 TriSense-2M-After-Judger.json  
@@ -69,9 +69,9 @@ TriSense-2M-After-Judger.json
 
 ---
 
-## Data Fields
+### Data Fields
 
-### TriSense-2M-After-Judger.json
+#### TriSense-2M-After-Judger.json
 
 Raw data produced after the judger evaluates model outputs. Each record corresponds to a video segment with multi-modal annotations and judger evaluation results.
 
@@ -113,7 +113,7 @@ Raw data produced after the judger evaluates model outputs. Each record correspo
 
 ---
 
-### stage1.json
+#### stage1.json
 
 Stage 1 data for image captioning. Uses the `<video>` placeholder for visual input (images treated as single-frame videos).
 
@@ -138,7 +138,7 @@ Stage 1 data for image captioning. Uses the `<video>` placeholder for visual inp
 
 ---
 
-### stage2.json
+#### stage2.json
 
 Stage 2 data for video temporal understanding. Multi-turn conversations with explicit temporal segments.
 
@@ -167,7 +167,7 @@ Stage 2 data for video temporal understanding. Multi-turn conversations with exp
 
 ---
 
-### stage3.json
+#### stage3.json
 
 Stage 3 data for advanced multi-modal reasoning and grounding. Supports both video-level QA and temporal segment tasks.
 
