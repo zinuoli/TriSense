@@ -14,7 +14,7 @@
 ## 📢 TODO List
 This repo is under construction. We will continuously update this repo for better contribution and performance.
 
-We found the previous LLM backbone was out-of-date, so we are training a more powerful model and planning an extension version.
+We found the previous LLM backbone was out-of-date, so we are training a more powerful model and planning an extension version to journal.
 
 - [x] Release dataset
 - [x] Higher quality data
